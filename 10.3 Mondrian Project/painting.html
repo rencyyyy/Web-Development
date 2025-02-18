@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 + Mondrian</title>
+    <style>
+    body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: grid;
+        background-color: black;
+        height: 600px;
+        width: 390px; 
+        grid-template-columns: 50px 50px 40px 100px 100px 30px;
+        grid-template-rows: 120px 100px 100px 50px 50px 40px 120px;
+        gap: 4px;
+    }
+    .white1 {
+        background-color: #f8f9fa;
+        grid-column: span 2;
+    }
+    .white2 {
+        background-color: #f8f9fa;
+        grid-column: span 2;
+    }
+    .yellow1 {
+        background-color: #ffd500;
+    }
+    .white3 {
+        background-color: #f8f9fa;
+    }
+    .white4 {
+        background-color: #f8f9fa;
+    }
+    .red {
+        background-color: #8d0801;
+        grid-row: span 2;
+        grid-column: span 3;
+    }
+    .yellow2 {
+        background-color: #ffd500;
+    }
+    .white5 {
+        background-color: #f8f9fa;
+        grid-row: span 3;
+    }
+    .white6 {
+        background-color: #f8f9fa;
+        grid-row: span 2;
+    }
+    .white7 {
+        background-color: #f8f9fa;
+    }
+    .black1 {
+        background-color: #252422;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .white8 {
+        background-color: #f8f9fa;
+    }
+    .white9 {
+        background-color: #f8f9fa;
+    }
+    .yellow3 {
+        background-color: #ffd500;
+        grid-row: span 3;
+    }
+    .white10 {
+        background-color: #f8f9fa;
+    }
+    .blue {
+        background-color: #034078;
+        grid-row: span 2;
+    }
+    .brown {
+        background-color: #ab3428;
+        grid-row: span 3;
+    }
+    .white11 {
+        background-color: #f8f9fa;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .black2 {
+        background-color: #252422;
+    }
+    .white12 {
+        background-color: #f8f9fa;
+        grid-column: span 2;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item white1"></div>
+        <div class="item white2"></div>
+        <div class="item yellow1"></div>
+        <div class="item white3"></div>
+
+        <div class="item white4"></div>
+        <div class="item red"></div>
+        <div class="item yellow2"></div>
+        <div class="item white5"></div>
+
+        <div class="item white6"></div>
+        <div class="item white7"></div>
+        <div class="item black1"></div>
+
+        <div class="item white8"></div>
+        <div class="item white9"></div>
+        <div class="item yellow3"></div>
+
+        <div class="item white10"></div>
+        <div class="item blue"></div>
+        <div class="item brown"></div>
+        <div class="item white11"></div>
+        <div class="item black2"></div>
+
+        <div class="item white12"></div>
+    </div>
+</body>
+</html>
