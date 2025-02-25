@@ -15,15 +15,46 @@
       background-position: 0% 50%;
     }
   }
-  
+
+  .nav {
+    position: fixed;
+    background-color: #131010;
+    border-radius: 50px;
+    margin-top: 50px;
+    z-index: 1;
+  }
+  .nav-links {
+    text-decoration: none;
+    color: #FFF0DC;
+    font-size: large;
+  }
+
+  .discover-btn {
+    background-color: #FFF0DC;
+    border-radius: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #131010;
+  }
+
+  .nav-links:hover {
+    color: #FFF0DC;
+    font-size: medium;
+  }
+  .discover-btn:hover {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #FFF0DC;
+    color: #FFF0DC;
+  }
+
   .icon-square {
     width: 3rem;
     height: 3rem;
     border-radius: 0.75rem;
+    background-color: #543A14;
   }
   
-  .profile-img {
-    height: 100px;
-    border-radius: 50%;
-  }
+  
   
