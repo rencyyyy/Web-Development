@@ -4,6 +4,7 @@ changeThirdList;
 var changeButtonText = document.firstElementChild.lastElementChild.querySelector("button").innerHTML = "Don't Click me";
 changeButtonText;
 
+// Selecting HTML Elements with Javascript Challenge
 var changeGoogleColor = document.querySelector("#list a").style.color = "orange";
 changeGoogleColor;
 
