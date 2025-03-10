@@ -19,3 +19,16 @@ document.querySelector(".btn").style.backgroundColor = "aquamarine";
 document.querySelector("h1").classList.add("huge-heading");
 document.querySelector("h1").classList.toggle("huge-heading"); // If the class 'heading' is already applied then: Turn it off
 document.querySelector("h1").classList.toggle("huge-heading"); // If the class 'heading' is turned off then: Apply
+
+// Text Manipulation and the Text Content Property
+
+document.querySelector(".btn").textContent = "Click me if you gay"; // instead of using innerHTML (will literally give you all that is inside that elements including any other html tags).
+
+// Manipulating HTML Element's Attributes
+
+document.querySelector("#list a").textContent = "Chat GPT"; // Changing the name of the text from it's original
+document.querySelector("#list a").getAttribute("href"); // Get the FIRST attribute inside the list id because theres a lot of a anchor tag inside the #list so i only get the first one here
+document.querySelector("#list a").setAttribute("href", "https://chatgpt.com/"); // Change the attributes from original (google.com) to (chatgpt.com).
+
+document.querySelectorAll("#list a")[1].textContent = "My Linked-in"; // used querySelectorAll because i wanted to target the second anchor tag.
+document.querySelectorAll("#list a")[1].setAttribute("href", "https://www.linkedin.com/in/rencyd/");
