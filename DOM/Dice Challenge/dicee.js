@@ -99,13 +99,12 @@ if (randomNumber2 === 1){
     diceTwo = 6;
 }
 
-if (diceOne === 6 && diceTwo === 6) {
-    heading = document.querySelector("h1").innerHTML = "Draw!";
-} else if (diceOne > diceTwo) {
+
+if (diceOne > diceTwo) {
     heading = document.querySelector("h1").textContent = "Player 1 Wins!";
 } else if (diceOne < diceTwo) {
     heading = document.querySelector("h1").textContent = "Player 2 Wins!";
-} else if (diceOne === diceTwo) {
+} else {
     heading = document.querySelector("h1").textContent = "Draw!";
 }
 
