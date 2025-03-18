@@ -24,5 +24,3 @@ function calculator(num1, num2, operator){
 
 var Calcu = calculator(9,6, modulo);
 console.log(Calcu);
-
-
