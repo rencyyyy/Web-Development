@@ -46,6 +46,11 @@ $("input").keydown(function(event){
     console.log(event.key);
 })
 
+// other example of event listener
+$("h1").on("mouseover", function(){
+    $("h1").css("color", "orange");
+})
+
 // Challenge: Whenever I press a key inside the website it gets shown inside the h1.
 // $(document).keydown(function(event){
 //     $("h1").text(event.key);
