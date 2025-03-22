@@ -39,6 +39,7 @@ $("h1").click(function() {
 // clicking all button element and change h1 element's color
 $("button").click( function () {
     $("h1").css("color","red");
+    $("h1").text("Bruh");
 });
 
 // Keypress || Keydown eventListener
@@ -63,3 +64,16 @@ $("h1").after("<button>New</button>");
 $("h1").prepend("<button>New</button>");
 $("h1").append("<button>New</button>");
 // $("button").remove(); // remove all button inside our website | Yes, all
+
+
+// Adding animation on website
+$("button").on("click", function(){
+    $("h1").fadeToggle();  // .hide(); & .show();  .toggle(); .slideUp(); .slideDown(); .slideToggle(); .fadeOut(); .fadeIn();
+});
+
+
+$("button").on("click", function(){
+    $("h1").animate({opacity: "50%"});
+})
+
+
