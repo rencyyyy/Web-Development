@@ -1,0 +1,15 @@
+{
+  "name": "npm-challenge",
+  "version": "1.0.0",
+  "description": "npm challenge by angela yu",
+  "main": "superhero.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rency C. Delos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "superheroes": "^4.0.0"
+  }
+}
