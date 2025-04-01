@@ -1,0 +1,17 @@
+{
+  "name": "2.4-qr-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rency C. Delos Santos",
+  "license": "ISC",
+  "description": "QR-Code generator Challenge",
+  "dependencies": {
+    "inquirer": "^12.5.0",
+    "qr-image": "^3.2.0"
+  }
+}
